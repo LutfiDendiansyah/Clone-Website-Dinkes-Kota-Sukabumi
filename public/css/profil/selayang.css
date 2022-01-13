@@ -1,0 +1,171 @@
+#selayang .container-selayang {
+  margin-top: 9rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+#selayang .container-selayang .box-selayang {
+  width: 67%;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+#selayang .container-selayang .box-selayang .text-selayang {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 500;
+}
+
+#selayang .container-selayang .box-selayang .sub-selayang {
+  font-size: 0.8rem;
+  color: rgb(197, 197, 197);
+  padding-bottom: 0.5rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border-bottom: 2px solid #e8eaf0;
+}
+
+#selayang .container-selayang .box-selayang .gambar {
+  text-align: center;
+  border-bottom: 2px solid #e8eaf0;
+}
+
+#selayang .container-selayang .box-selayang img {
+  width: 100%;
+  margin: 1rem 0;
+  border: 2px solid #e8eaf0;
+  border-radius: 0.5rem;
+}
+
+#selayang .container-selayang .box-selayang p {
+  font-size: 1rem;
+  text-align: justify;
+  padding-top: 0.5rem;
+}
+
+#selayang .container-selayang .box-selayang h2,
+#selayang .container-selayang .box-selayang h3 {
+  color: #333;
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
+#selayang .container-selayang .side-bar-selayang {
+  width: 33%;
+  border-radius: 0.5rem;
+}
+
+#selayang .container-selayang .side-bar-selayang .pimpinan-kota {
+  background-color: #fff;
+  padding: 0.5rem 0 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 1rem solid #f3f6f9;
+}
+
+#selayang .container-selayang .side-bar-selayang .pimpinan-kota h1 {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+#selayang .container-selayang .side-bar-selayang .pimpinan-kota img {
+  width: 110%;
+}
+
+#selayang .container-selayang .side-bar-selayang .lihat-jadwal {
+  background-color: #3699ff;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+#selayang .container-selayang .side-bar-selayang .lihat-jadwal h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+#selayang .container-selayang .side-bar-selayang .lihat-jadwal a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ffa800;
+  color: #fff;
+  margin: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya {
+  margin: 1rem 0;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya h1 {
+  font-size: 1.4rem;
+  color: #333;
+  border-bottom: 1px solid #dedee6;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya .sub-berita {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya .sub-berita img {
+  width: 30%;
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya .sub-berita h4 {
+  font-weight: 600;
+  color: #333;
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya .sub-berita h4:hover {
+  color: var(--hover-color);
+}
+
+#selayang .container-selayang .side-bar-selayang .berita-lainnya .sub-berita span {
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  #selayang .container-selayang {
+    margin-top: 5rem;
+    flex-wrap: wrap;
+  }
+
+  #selayang .container-selayang .box-selayang .text-selayang {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #selayang .container-selayang .box-selayang .sub-selayang {
+    font-size: 0.7rem;
+  }
+
+  #selayang .container-selayang .side-bar-selayang {
+    width: 100%;
+  }
+
+  #selayang .container-selayang .box-selayang {
+    width: 100%;
+  }
+
+  #selayang .container-selayang .box-selayang p {
+    font-size: 0.8rem;
+  }
+
+  #selayang .container-selayang .box-selayang h2,
+  #selayang .container-selayang .box-selayang h3 {
+    font-size: 1rem;
+  }
+
+  #selayang .container-selayang .side-bar-selayang .lihat-jadwal h1 {
+    font-size: 1rem;
+  }
+}

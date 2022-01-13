@@ -1,0 +1,545 @@
+#info .container-info {
+  margin-top: 9rem;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+#info .container-info .banner {
+  width: 50%;
+}
+
+#info .container-info .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#info .container-info .banner .slick-prev {
+  margin-left: 2rem;
+  z-index: 2;
+}
+
+#info .container-info .banner .slick-next {
+  margin-right: 2rem;
+  z-index: 2;
+}
+
+#info .container-info .call-center {
+  width: 25%;
+  background: #f64e60;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+#info .container-info .call-center .title {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+#info .container-info .call-center .text {
+  text-align: center;
+}
+
+#info .container-info .call-center .contact {
+  margin: 0.8rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#info .container-info .call-center p {
+  margin: 0 1rem;
+  font-size: 0.8rem;
+}
+
+#info .container-info .medsos {
+  width: 25%;
+  background: #8950fc;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+#info .container-info .medsos h3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+#info .container-info .medsos p {
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+#info .container-info .medsos .medsos-logo {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#info .container-info .medsos .medsos-logo a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#info .container-info .medsos .medsos-logo a i {
+  line-height: 50px;
+  font-size: 30px;
+}
+
+/* data covid */
+#data-covid .update-text {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#data-covid .last-update {
+  font-size: 1.2rem;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+#data-covid .content-data-covid {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+#data-covid .content-data-covid .terkonfirmasi {
+  width: 25%;
+  padding: 2rem 0rem;
+  background: #ffa800;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+#data-covid .content-data-covid .terkonfirmasi h4,
+#data-covid .content-data-covid .isolasi h4,
+#data-covid .content-data-covid .sembuh h4,
+#data-covid .content-data-covid .meninggal h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#data-covid .content-data-covid .isolasi {
+  width: 25%;
+  padding: 2rem 0rem;
+  background: #3699ff;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+#data-covid .content-data-covid .sembuh {
+  width: 25%;
+  padding: 2rem 0rem;
+  background: #1bc5bd;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+#data-covid .content-data-covid .meninggal {
+  width: 25%;
+  padding: 2rem 0rem;
+  background: #f64e60;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Prokes */
+#prokes .content {
+  width: 100%;
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+#prokes .content h2 {
+  font-size: 1.7rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#prokes .content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+#prokes .content img {
+  margin-top: 1rem;
+  width: 40%;
+}
+
+/* Vaksin */
+#vaksin .vaksin-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#vaksin .vaksin-container .vaksin {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  position: relative;
+  height: 25rem;
+  width: 50%;
+  border-radius: 0.5rem;
+}
+
+#vaksin .vaksin-container .vaksin h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#vaksin .vaksin-container .vaksin p {
+  font-size: 1rem;
+  color: #666;
+}
+
+#vaksin .vaksin-container .vaksin a {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #f64e60;
+}
+
+#vaksin .vaksin-container .vaksin img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20rem;
+  margin-right: 0.5rem;
+}
+
+#vaksin .vaksin-container .schedule {
+  width: 50%;
+  height: 25rem;
+}
+
+#vaksin .vaksin-container .schedule .agenda {
+  background-color: #c9f7f5;
+  padding: 0 2rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#vaksin .vaksin-container .schedule .agenda h2 {
+  color: #333;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#vaksin .vaksin-container .schedule .agenda a {
+  color: #1bc5bd;
+  font-size: 1.3rem;
+}
+
+#vaksin .vaksin-container .schedule .pengumuman {
+  background-color: #ffe2e5;
+  padding: 0 2rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#vaksin .vaksin-container .schedule .pengumuman h2 {
+  color: #333;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#vaksin .vaksin-container .schedule .pengumuman a {
+  color: #f64e60;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* Berita */
+#berita .container-berita {
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+#berita .container-berita .text-berita {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 1rem 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #999;
+  font-weight: 600;
+}
+
+#berita .container-berita .box-berita {
+  margin: 1rem 2rem;
+  display: flex;
+  padding: 1.8rem;
+  gap: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+#berita .container-berita .box-berita img {
+  width: 7rem;
+  height: 100%;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #b5b5c3;
+}
+
+#berita .container-berita .box-berita .content h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+#berita .container-berita .box-berita .content h2:hover,
+#berita .container-berita .box-berita .content span:hover {
+  color: #3699ff;
+}
+
+#berita .container-berita .box-berita .content span {
+  color: #777;
+  cursor: pointer;
+}
+
+#berita .container-berita .box-berita .content p {
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+#berita .semua-berita {
+  text-align: center;
+}
+
+#berita .btn {
+  display: inline-block;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Layanan publik */
+#layanan-publik .container-layanan-publik {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+#layanan-publik .container-layanan-publik .gambar {
+  width: 45%;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  display: flex;
+}
+
+#layanan-publik .container-layanan-publik .gambar .slick-prev,
+#layanan-publik .container-layanan-publik .gambar .slick-next {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#layanan-publik .container-layanan-publik .gambar img {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik {
+  width: 55%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #b5b5c3;
+  color: #333;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik table {
+  margin: 1rem 0;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik table tr:first-child {
+  font-weight: 600;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik table tr td {
+  padding: 1rem 0;
+  border-bottom: 1px solid #b5b5c3;
+  color: #666;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik table tr .satu {
+  width: 30%;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik table tr .dua {
+  width: 30%;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik .semua {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#layanan-publik .container-layanan-publik .daftar-layanan-publik .semua .btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+}
+
+/* link terkait */
+#link-terkait h1 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #333;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+#link-terkait .container-link-terkait {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+#link-terkait .box-link-terkait {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #info .container-info {
+    margin-top: 5rem;
+  }
+
+  #info .container-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #info .container-info .banner,
+  #info .container-info .call-center,
+  #info .container-info .medsos {
+    width: 100%;
+    height: 15rem;
+  }
+
+  #info .container-info .banner {
+    height: 100%;
+  }
+
+  #data-covid .content-data-covid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #data-covid .update-text {
+    font-size: 1.3rem;
+  }
+
+  #data-covid .last-update {
+    font-size: 1rem;
+  }
+
+  #data-covid .content-data-covid .terkonfirmasi,
+  #data-covid .content-data-covid .isolasi,
+  #data-covid .content-data-covid .sembuh,
+  #data-covid .content-data-covid .meninggal {
+    width: 100%;
+  }
+
+  #prokes .content h2 {
+    font-size: 1.3rem;
+  }
+
+  #prokes .content p {
+    font-size: 0.7rem;
+  }
+
+  #prokes .content img {
+    width: 100%;
+  }
+
+  #vaksin .vaksin-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #vaksin .vaksin-container .vaksin {
+    width: 100%;
+    z-index: -1;
+  }
+
+  #vaksin .vaksin-container .vaksin img {
+    width: 15rem;
+  }
+
+  #vaksin .vaksin-container .schedule {
+    width: 100%;
+  }
+
+  #berita .container-berita .box-berita {
+    flex-wrap: wrap;
+  }
+
+  #berita .container-berita .box-berita img {
+    width: 100%;
+  }
+
+  #layanan-publik .container-layanan-publik {
+    display: block;
+  }
+
+  #layanan-publik .container-layanan-publik .gambar {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #layanan-publik .container-layanan-publik .daftar-layanan-publik {
+    width: 100%;
+  }
+
+  #layanan-publik .container-layanan-publik .daftar-layanan-publik h2 {
+    text-align: center;
+  }
+
+  #layanan-publik .container-layanan-publik .daftar-layanan-publik table tr td {
+    padding-right: 1rem;
+  }
+}

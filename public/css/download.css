@@ -1,0 +1,23 @@
+#download .box-download {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 9rem;
+  border-radius: 0.5rem;
+  margin-bottom: 10rem;
+}
+
+#download .box-download h2 {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  #download .box-download {
+    margin-top: 5rem;
+  }
+}
