@@ -1,4 +1,4 @@
-Project ini saya buat hanya untuk mengasah kemampuan saya.
+Project ini saya buat hanya untuk mengasah kemampuan saya, dan memakan waktu kurang lebih 5 hari.
 teknologi yang di pake di project ini :
 
 1. HTML
